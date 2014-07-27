@@ -1,7 +1,4 @@
 ## Load the data
-if(!file.exists('uciharDataset.zip')) {
-    download.file('https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip', destfile='uciharDataset.zip')
-}
 
 ## read features data
 features <- read.table("features.txt")
